@@ -1,0 +1,16 @@
+#include<stdio.h>
+struct sum
+{
+int a;
+int b;
+int c;
+}s;
+
+int main()
+{
+printf("enter two numbers");
+scanf("%d%d",&s.a,&s.b);
+s.c=(s.a+s.b);
+printf("sum=%d",s.c);
+return 0;
+}
