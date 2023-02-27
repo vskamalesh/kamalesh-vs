@@ -1,0 +1,15 @@
+#include<stdio.h>
+struct a
+{
+char name[20];
+int a;
+}s;
+
+int main()
+{
+printf("enter a number");
+scanf("%d, &s.a");
+printf("displaying information:\n");
+printf("number:%d", s.a);
+return 0;
+}
